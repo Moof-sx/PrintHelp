@@ -260,3 +260,94 @@ footer {
     font-size: 0.88rem;
     opacity: 0.85;
 }
+/* ===== Стили для главной страницы (index.html) ===== */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.card, .contact-info, .stat, .review-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 30px;
+    transition: transform 0.3s ease, border-color 0.3s;
+}
+
+.card:hover, .review-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(100, 255, 218, 0.3);
+}
+
+.card h3, .contact-info p strong {
+    color: #fff;
+}
+
+.card p, .contact-info p {
+    color: #8892b0;
+}
+
+.contact-info a:not(.call-btn) {
+    color: #64ffda;
+}
+
+.call-btn {
+    display: block;
+    background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
+    color: #fff !important;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+.call-btn:hover {
+    transform: scale(1.02);
+}
+
+.review-stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.stat {
+    text-align: center;
+    min-width: 150px;
+}
+
+.stat-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #64ffda;
+}
+
+.stat-label {
+    color: #8892b0;
+}
+
+.review-text {
+    color: #e0e0e0;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.review-author {
+    color: #8892b0;
+    text-align: right;
+    font-size: 0.9rem;
+}
+
+.review-note, .review-disclaimer {
+    text-align: center;
+    color: #8892b0;
+    margin-bottom: 30px;
+}

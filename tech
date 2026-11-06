@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrintHelp | Ремонт и продажа оргтехники в Астане</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <h1>PrintHelp</h1>
+            <p class="slogan">Качество, которому доверяют</p>
+            <p class="subtitle">Ремонт и продажа оргтехники • Видеонаблюдение • Заправка картриджей</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="services fade-in">
+            <h2>Наши услуги</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Ремонт компьютеров</h3>
+                    <p>Диагностика, чистка, замена комплектующих, установка ПО, восстановление данных.</p>
+                </div>
+                <div class="card">
+                    <h3>Ремонт принтеров</h3>
+                    <p>Восстановление печатающих головок, замена роликов, устранение замятий бумаги.</p>
+                </div>
+                <div class="card">
+                    <h3>Заправка картриджей</h3>
+                    <p>Качественная заправка лазерных картриджей с проверкой печати после услуги.</p>
+                </div>
+                <div class="card">
+                    <h3>Продажа техники</h3>
+                    <p>Компьютеры, мониторы, комплектующие и расходные материалы под заказ.</p>
+                </div>
+                <div class="card">
+                    <h3>Видеонаблюдение</h3>
+                    <p>Установка камер, настройка регистраторов, удалённый доступ с телефона.</p>
+                </div>
+                <div class="card">
+                    <h3>Обслуживание офисов</h3>
+                    <p>Разовые выезды и абонентское обслуживание оргтехники для компаний.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews fade-in">
+            <h2>Отзывы и рейтинг</h2>
+            <p class="review-note">По данным открытых источников рейтинг компании Print Help составляет <strong>4.8 из 5</strong>. Ниже — фрагменты отзывов, опубликованных пользователями.</p>
+
+            <div class="review-stats">
+                <div class="stat">
+                    <span class="stat-number">4.8</span>
+                    <span class="stat-label">Рейтинг</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">179</span>
+                    <span class="stat-label">Оценок</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">64</span>
+                    <span class="stat-label">Отзывов</span>
+                </div>
+            </div>
+
+            <div class="review-cards">
+                <div class="review-card">
+                    <p class="review-text">«Хорошее место, распечатывают сразу и с любого носителя. Качество отличное, идут навстречу, очень отзывчивые сотрудники. Оперативно, можно прямо при вас.»</p>
+                    <p class="review-author">— Launchpad McQuack, июль 2023</p>
+                </div>
+                <div class="review-card">
+                    <p class="review-text">«Супер место! Всегда выручат и сделают все что нужно: фото для документов, ксерокс и мн.др. Вежливый фотограф, который отлично умеет фотографировать младенцев на загранпаспорт. Рекомендую!»</p>
+                    <p class="review-author">— Солнце, декабрь 2022</p>
+                </div>
+                <div class="review-card">
+                    <p class="review-text">«Всё быстро и качественно. Помогут и подскажут, как лучше сделать.»</p>
+                    <p class="review-author">— Станислав Казимирович В., январь 2026</p>
+                </div>
+            </div>
+
+            <p class="review-disclaimer">* Отзывы взяты из открытых источников и могут относиться к услугам печати и фото, а не к ремонту оргтехники. Для уточнения деталей ремонта рекомендуем позвонить по указанным телефонам.</p>
+        </section>
+
+        <section class="contacts fade-in">
+            <h2>Контакты</h2>
+            <div class="contact-info">
+                <p><strong>Адрес:</strong> г. Астана, Пр. Республики, д. 29 (вход со двора)</p>
+                <p><strong>Телефоны:</strong></p>
+                <div class="phone-buttons">
+                    <a href="tel:+77015260233" class="call-btn">Позвонить: +7 701 526 02 33</a>
+                    <a href="tel:+77015260244" class="call-btn">Позвонить: +7 701 526 02 44</a>
+                    <a href="tel:+77785752015" class="call-btn">Позвонить: +7 778 575 20 15</a>
+                </div>
+                <p style="margin-top: 20px;"><strong>Режим работы:</strong> Пн-Пт 10:00–18:00, Сб 10:00–13:00</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 PrintHelp. Астана. Качество, которому доверяют.</p>
+        </div>
+    </footer>
+</body>
+</html>
